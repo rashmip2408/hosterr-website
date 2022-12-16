@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    background-color: #F9F4E8;
+}
+
+.container-fluid {
+    padding: 3% 9%;
+}
+
+.container-fluid2 {
+    padding: 6% 120px 4% 9%;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 3.8rem;
+    line-height: 1;
+}
+
+
+label {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.p2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+    margin: 2px;
+    text-decoration: none;
+}
+
+.para {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    color: #4d5563;
+}
+
+.btn {
+    color: white;
+    font-size: 1.2rem;
+    height: 60px;
+    width: 150px;
+}
+
+.navbar-nav {
+    display: flexbox;
+}
+
+.hiring {
+    color: white;
+    background-color: #F7CE68;
+    background-image: linear-gradient(82deg, #F7CE68 0%, #FBAB7E 46%, #d93158 74%);
+    font-size: 55%;
+    border-radius: 20px;
+    border: 0px;
+    text-align: center;
+    padding: 6px 12px;
+}
+
+.link {
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+
+.col {
+    display: inline-block;
+}
+
+.col.mid {
+    vertical-align: middle;
+}
+
+.people {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.help-list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.help-list ul {
+    padding: 0 0 0 13px;
+    margin: 0;
+    list-style: none;
+}
+
+.blue {
+    float: right;
+    display: inline;
+    position: relative;
+    float: right;
+    bottom: 20px;
+    width: 30%;
+    transform: rotate(-60deg);
+}
+
+.pink {
+    float: right;
+    display: inline;
+    position: absolute;
+    left: 70%;
+    bottom: 5px;
+    width: 30%;
+    transform: rotate(-40deg);
+}
+
+.purple {
+    float: right;
+    display: inline;
+    position: absolute;
+    left: 70%;
+    width: 30%;
+    transform: rotate(-20deg);
+
+}
+
+
+
+#hero {
+    float: right;
+    position: absolute;
+    display: inline;
+    top: 2%;
+    left: 70%;
+    bottom: 5px;
+    width: 30%;
+}
+
+.parent {
+    position: relative;
+}
